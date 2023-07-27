@@ -1,5 +1,6 @@
-// Import the functions you need from the SDKs you need
-const functions = require('firebase-functions');
+
+// CHECK OUT TUTORIAL:
+// https://www.youtube.com/watch?v=LW26kpjGl2c
 
 // index.js
 // where your node app starts
@@ -79,7 +80,7 @@ var listener = app.listen(process.env.PORT, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
 
-exports.app = functions.https.onRequest(app);
+
 
 // // check this out
 // app.get('/user/:id', function (req, res, next) {

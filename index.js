@@ -1,6 +1,6 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-const functions = require()
+
+// CHECK OUT TUTORIAL:
+// https://www.youtube.com/watch?v=LW26kpjGl2c
 
 // index.js
 // where your node app starts
